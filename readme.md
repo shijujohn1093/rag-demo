@@ -34,8 +34,18 @@ Create a virtual environment to isolate your project dependencies.
     uvicorn main:app --reload
     ```
 
+## Running the Application
 
+1. Make the `run.sh` script executable (only required once):
+   ```bash
+   chmod +x run.sh
+   ```
 
+2. Run the application using the script:
+   ```bash
+   ./run.sh
+   ```
+   
 ## Deactivating the Virtual Environment
 
 To deactivate the virtual environment, simply run:
