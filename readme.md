@@ -25,7 +25,7 @@
 4. Install the required dependencies:
 
    ```
-   pip install -r requirements.txt
+   pip install -r requirement.txt
    ```
 
 5. Run the application using uvicorn:
