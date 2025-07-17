@@ -1,14 +1,14 @@
-# Project Title
+# Sample Application
 
-Create a virtual environment to isolate your project dependencies.
 
-## Creating a Virtual Environment
+## Setup and run application
 
 1. Ensure you have Python 3.8 or higher installed.
 2. Navigate to the `rag-demo` directory:
    ```bash
    cd rag-demo
-3. Run the following commands to create and activate a virtual environment:
+3. Create a virtual environment to isolate your project dependencies.
+, Run the following commands to create and activate a virtual environment:
 
    **For macOS/Linux:**
    ```
@@ -45,7 +45,7 @@ Create a virtual environment to isolate your project dependencies.
    ```bash
    ./run.sh
    ```
-   
+
 ## Deactivating the Virtual Environment
 
 To deactivate the virtual environment, simply run:
