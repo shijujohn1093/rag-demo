@@ -1,5 +1,4 @@
 #!/bin/bash
-set -ex  # Exit on error, print commands
 
 PORT=${1:-8000}  # default to 8000 if no argument
 
@@ -25,9 +24,10 @@ fi
 # Deactivate Conda env if active
 if [[ "$CONDA_DEFAULT_ENV" != "" ]]; then
   echo "Deactivating Conda environment..."
+  conda init
   conda deactivate
 else
   echo "No Conda environment is active."
 fi
 
-echo "✅ Server stopped. Note: If you activated Conda env in parent shell, deactivate manually if needed."
+echo "Server stopped. Note: If you activated Conda env in parent shell, deactivate manually if needed."
