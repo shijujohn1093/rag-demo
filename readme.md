@@ -36,7 +36,7 @@
    ```
    venv\Scripts\activate
    ```
-## Create virtual environment using conda
+## Create virtual environment using conda, ben
 
    1. Create conda virtual environment 
    ```
@@ -55,19 +55,19 @@
    ```
 
 
-4. Install the required dependencies:
+## Install the required dependencies:
 
    ```
    pip install -r requirement.txt
    ```
 
-5. Run the application using uvicorn:
+## Run the application using uvicorn:
 
     ```
     uvicorn main:app --reload
     ```
 
-## We create shell script run all above commands in on go
+## We created shell script run all above commands in on go
 
 1. Make the `run.sh` script executable (only required once):
    ```
@@ -78,14 +78,5 @@
    ```
    ./run.sh
    ```
-
-## To deactivate the virtual environment, simply run:
-   ```
-   ./run.sh
-   ```
-
-# Run pythong using amaconda
-
-install a
 
 

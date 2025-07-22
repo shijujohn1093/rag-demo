@@ -1,6 +1,8 @@
 #!/bin/bash
 PORT=${1:-8000}  # default to 8000 if no argument
 
+python3 -m venv venv
+
 # Activate the virtual environment
 source venv/bin/activate
 
