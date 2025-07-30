@@ -36,7 +36,15 @@
    ```
    venv\Scripts\activate
    ```
-## Create virtual environment using conda, ben
+
+## Install the required dependencies:
+
+   ```
+   pip install -r requirement.txt
+   ```
+
+
+## Create virtual environment using conda, 
 
    1. Create conda virtual environment 
    ```
@@ -54,45 +62,7 @@
 
    ```
 
-
-## Install the required dependencies:
-
-   ```
-   pip install -r requirement.txt
-   ```
-
-## Run the application using uvicorn:
-
-    ```
-    uvicorn main:app --reload
-    ```
-
-## We created shell script run all above commands in on go, for anaconda
-
-
-1. Make the `run_with_conda.sh` script executable (only required once):
-   ```
-   chmod +x run_with_conda.sh
-   ```
-
-2. Run the application using the script:
-   ```
-   ./run_with_conda.sh
-   ```
-
-## For core python
-
-1. Make the `run_with_python.sh` script executable (only required once):
-   ```
-   chmod +x run_with_python.sh
-   ```
-
-2. Run the application using the script:
-   ```
-   ./run_with_python.sh
-   ```
-
-## you can use conda environment file to create environemnt and application
+## You can use conda environment file to create environemnt and application, It will download all the dependencies when environment is created and give you ready to use environment
 
 ```
 conda env create -f environment.yml
@@ -103,9 +73,20 @@ conda deactivate
 
 ```
 
- 
 ## Once you are inside conda environment, run jupyter note book using belo command
 ```
 jupyter lab
 ```
+
+## Or you can run web application using below command
+
+ ```
+ uvicorn main:app --reload
+ ```
+
+
+
+
+
+ 
 
