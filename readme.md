@@ -73,7 +73,7 @@ conda deactivate
 
 ```
 
-## Once you are inside conda environment, run jupyter note book using belo command
+## Once you in virtual environment, run jupyter note book using below command
 ```
 jupyter lab
 ```
