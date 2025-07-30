@@ -2,3 +2,4 @@ python-dotenv~=1.1
 fastapi~=0.116
 uvicorn~=0.35
 openai~=1.97
+nltk

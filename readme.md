@@ -67,16 +67,45 @@
     uvicorn main:app --reload
     ```
 
-## We created shell script run all above commands in on go
+## We created shell script run all above commands in on go, for anaconda
 
-1. Make the `run.sh` script executable (only required once):
+
+1. Make the `run_with_conda.sh` script executable (only required once):
    ```
-   chmod +x run.sh
+   chmod +x run_with_conda.sh
    ```
 
 2. Run the application using the script:
    ```
-   ./run.sh
+   ./run_with_conda.sh
    ```
 
+## For core python
+
+1. Make the `run_with_python.sh` script executable (only required once):
+   ```
+   chmod +x run_with_python.sh
+   ```
+
+2. Run the application using the script:
+   ```
+   ./run_with_python.sh
+   ```
+
+## you can use conda environment file to create environemnt and application
+
+```
+conda env create -f environment.yml
+
+conda activate local
+
+conda deactivate
+
+```
+
+ 
+## Once you are inside conda environment, run jupyter note book using belo command
+```
+jupyter lab
+```
 

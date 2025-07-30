@@ -1,4 +1,5 @@
 #!/bin/bash
+
 conda create -n venv1 python=3.12 -y
 
 conda init
