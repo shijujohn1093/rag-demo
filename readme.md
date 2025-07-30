@@ -62,7 +62,7 @@
 
    ```
 
-## You can use conda environment file to create environemnt and application, It will download all the dependencies when environment is created and give you ready to use environment
+## You can use conda environment file to create environemnt dowanload all the dependencies.
 
 ```
 conda env create -f environment.yml
@@ -73,12 +73,12 @@ conda deactivate
 
 ```
 
-## Once you in virtual environment, run jupyter note book using below command
+## Run jupyter lab
 ```
 jupyter lab
 ```
 
-## Or you can run web application using below command
+## Run web application
 
  ```
  uvicorn main:app --reload
